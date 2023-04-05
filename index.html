@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html básico</title>
+    <style>
+        table,th,td {border: 2px solid black;}
+    </style>
+</head>
+<body>
+        <h1>teste</h1><b>ola</b> <i>oi</i> <br><i><b>ola</b></i> <br>
+        <!-- comentário ... -->
+        <b>ola</b>
+    <hr>
+        <h1>porra</h1>
+        <p>texto texto texto texto texo texto</p>
+        <h2>ola</h2><h3>ola</h3>...<h6>ola</h6>
+    <hr>
+        <ul>
+            <li>
+            bla <b>um</b> bla bla
+            </li>
+            <li> Números
+            <ol>
+            <li>um</li>
+            <li>dois</li>
+            </ol>
+        </li>
+        </ul> 
+    <hr>
+
+    <table>
+        <tr>
+            <td rowspan="3">L1</td>
+        </tr>
+        <tr>
+            <td>L1C1</td>
+            <td>L1C2</td>
+        </tr>
+        <tr>
+            <td>L2C1</td>
+            <td>L2C2</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <caption>Lucro por Mês</caption>
+        <thead>
+            <tr>
+                <th>Mês</th>
+                <th>Lucro</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Janeiro</td>
+                <td>R$200</td>
+            </tr>
+            <tr>
+                <td>Fevereiro</td>
+                <td>R$50</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>R$250</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <form>
+        <fieldset>
+        <legend>Dados:</legend>
+        <label for="n1">Nome:</label>
+        <input type="text" id="n1"><br>
+        <label for="s1">Senha:</label>
+        <input type="password" id="s1">
+        <input type = "submit" value = "enviar"><br>
+        </fieldset>
+        
+        Time: <br>
+        <input type="radio" name="time" value="Gre">Grêmio<br>
+        <input type="radio" name="time" value="Int">Inter<br>
+
+        SO:<br>
+        <input type="checkbox" name="so"value="win">Windows<br>
+        <input type="checkbox" name="so" value="lin">Linux<br>
+
+        Disciplinas:<br>
+        <select name="dis">
+            <option>W1</option>
+            <option>W2</option>
+        </select><br>
+
+        Telefone:<input type="tel" name="telefone"><br>
+        Procurar:<input type="search" name="procurar"><br>
+        Email:<input type="email" name="email"><br>
+        Link:<input type="url" name="url"><br>
+        Data:<input type="date" name="dnasc"><br>
+        Número:<input type="number" name="num"><br>
+        Cor:<input type="color" name="cor"><br>
+        Upload:<input type="file" multiple name="arq"><br>
+        Intervalo:<input type="range" min="0" max="100"
+        value="50" name="intervalo">
+    </form>
+    <hr>
+
+
+</body>
+</html>
